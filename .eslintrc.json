@@ -1,0 +1,9 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/react-in-jsx-scope": "off"
+    // allow jsx syntax in js files (for next.js project)
+     }
+}
