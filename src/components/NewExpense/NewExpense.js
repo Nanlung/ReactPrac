@@ -11,6 +11,7 @@ const NewExpense = (props) => {
       id: Math.random.toString(),
     };
     props.onAddExpense(expenseData);
+    setDisplay(false);
   };
 
   const showHandler = () => {
